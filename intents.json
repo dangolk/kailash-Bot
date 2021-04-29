@@ -1,0 +1,137 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered?", "Help me", "Guide Me"],
+         "responses": ["I can guide you through Cyber Collab, its technology, and its services.  We have several technologies like 3D printers (desktop, resin, industrial, metal, carbon fiber, and circuit boards), a holotable and holowall, robotics and drones, e-sports arena, Virtual Reality and Augmented Reality, IoT, and much more!"],
+         "context": [""]
+        },
+        {"tag": "technologies_present",
+         "patterns": ["What do you have?", "What do you work with?", "Give me a list of Technologies ", "List all services and projects", "What devices you have?" ],
+         "responses": ["We have wide range of new technologies like 3D printers (pla, abs, industrial, metal, carbon fiber, resin, and more), Drones, IoT, Robotics, Data Visualization, Holotable, Holowall, Hololens, Oculus Quest, and many more!"],
+         "context": [""]
+        },
+        {"tag": "holowall",
+         "patterns": ["what is holowall", "why holowall", "who need holowall", "what can be done in holowall", "where is holowall" ],
+         "responses": ["The Holowall is an immersive 3D experience that allows viewers to walk aroud and interact with 3D models on a large screen wall.  Compared to the Holotable, which has models moving vertically up and down in the table, the Holowall has models coming towards you off the wall."],
+         "context": [""]
+        },
+        {"tag": "holotable",
+         "patterns": ["what is holotable", "why holotable", "who need holotable", "what can be done in holotable", "where is holotable"],
+         "responses": ["The Holotable is an immersive 3D experience that allows viewers to walk aroud and interact with 3D models on a large four sided table. Compared to the Holowall, which has models coming towards you off the wall, the Holotable 3D models move vertically up and down in the table."],
+         "context": [""]
+        },
+        {"tag": "hololens",
+         "patterns": ["what is hololens", "why hololens", "who need hololens", "what can be done in hololens", "where is hololens"],
+         "responses": ["The Hololens 2 from Microsoft is an Augmented Reality device that overlays holographic images across your surroundings.  Unlike VR, which are fully enclosed and block the user from their surroundings, the HoloLens 2 is translucent allowing the user see and interact with their environment."],
+         "context": [""]
+        },
+        {"tag": "e_sport_club",
+         "patterns": ["what is esport club", "why e-sport club", "who need e-sport club", "what can be done in e-sport club", "where is e-sport club"],
+         "responses": ["New this year to LSUS we have esports as a club sport and an esports arena.  With 24 high end Alienware computers, this lab is the most advanced on campus."],
+         "context": [""]
+        },
+        {"tag": "e_sport_club_timing",
+         "patterns": ["what is e-sport club timing", "what time  e-sport club is open?", "e-sport club schedule", " e-sport club hours"],
+         "responses": ["The esports arena is open from 4-10PM Monday-Friday, and available as an open lab from 8AM-4PM whenever classes are not being taught in the area."],
+         "context": [""]
+        },
+        {"tag": "iot_lab",
+         "patterns": ["What are current iot projects?","IoT running projects", "What are iot recent activities", " What is iot lab?", "iot lab activities"],
+         "responses": ["The IoT lab is part of our phase 2 buildout after we complete phase 1 construction over the summer of 2021.  The IoT lab along with our Robo/Drone space is expected to be completed in the fall of 2021"],
+         "context": [""]
+        },
+        {"tag": "robotics_lab",
+         "patterns": ["What are current robotics projects?","Robotics running projects", "What are robotics recent activities", "robotics lab activities"],
+         "responses": ["The Robo/Drone space is part of our phase 2 buildout after we complete phase 1 construction over the summer of 2021.  The Robo/Drone space along with our IoT lab is expected to be completed in the fall of 2021"],
+         "context": [""]
+        },
+        {"tag": "data_visualization_lab",
+         "patterns": ["where is data visualization lab?","What is data visualization lab?","How to use data visualization lab?"],
+         "responses": ["We have lave dedicated for data visualization, with advance connected computers."],
+         "context": [""]
+        },
+        {"tag": "current_projects",
+         "patterns": ["What are the current Cyber Collaboratory projects.", "current projects"],
+         "responses": ["To see a listing of our current projects please see the interactive form at collab.lsus.edu"],
+         "context": [""]
+        },
+        {"tag": "future_projects",
+         "patterns": ["What are the future Cyber Collaboratory projects.", "future projects","upcoming projects"],
+         "responses": ["To see a listing of our future projects please see the interactive form at collab.lsus.edu"],
+         "context": [""]
+        },
+        {"tag": "career_job",
+         "patterns": ["are you hirinng?","Job openings?","Student worker job"],
+         "responses": ["To find job opening please fill interactive form at collab.lsus.edu"],
+         "context": [""]
+        },
+        {"tag": "3d_printers",
+         "patterns": ["What 3d printers do you have?"],
+         "responses": ["We have multiple sizes and styles of 3D printers in the collaboratory.  These include Makerbot Replicator+ and MethodX, Markforged MetalX and Mark Two, BigRep One industrial printer, Botfactory PCB printer, Formlabs Form 3B resin printer, and multiple small form factor educational printers."],
+         "context": [""]
+        },
+         {"tag": "3d_printers_uses",
+         "patterns": ["What are the uses of 3d printer?", "3D printer used for what purpose", "where can i used 3d printers?"],
+         "responses": ["You can use 3D printers to make models, rapid prototype new parts before sending to production, make molds for casting or carbon fiber work, and many more!"],
+         "context": [""]
+        },
+        {"tag": "printing_rates",
+         "patterns": ["what are available printing rates?", " Printing price?", " Printing rate?", "Printing cost?"],
+         "responses": ["The cost of using 3D printers at the Cyber Collaboratory depends on which printer you are using and the cost of materials.  Students or industry partners provide models and printing specifications to receive a quote before printing is done.  Please reach out to one of our staff for more info."],
+         "context": [""]
+        },
+        {"tag": "cyber_collaboratory",
+         "patterns": ["Lookup for cyber collab", "what is cyber collaboratory", "why cyber collaboratory", "what cyber collaboratory do", "where cyber collaboratory" ],
+         "responses": ["The Cyber Collaboratory is the new lab in the LSUS Technology center where cutting edge technology meets collaborative student and industry projects."],
+         "context": [""]
+        },
+        {"tag": "cyber_collaboratory_contact",
+         "patterns": ["who is director of cyber collaboratory", "who is incharge of cyber collab" ],
+         "responses": ["Scott Isaacs is the Cyber Collaboratory Director, and you can reach him by completing the form on collab.lsus.edu."],
+         "context": [""]
+		 },
+        {"tag": "cyber_collaboratory_hours",
+         "patterns": ["what is your business hours", "what time you are open and closed", "opening hours", "opening time" ],
+         "responses": ["We are open 8AM-10PM M-F while school is in session, 8AM-4:30PM M-F on school breaks, and closed for designated Louisiana State holidays. "],
+
+ "context": [""]
+		 },
+        {"tag": "industry_work",
+         "patterns": ["do you work with businesses?", "do you work with industry? " , "industry partners"],
+         "responses": ["The Cyber Collaboratory is proud to work with local and regional industry partners on collaborative projects that engage our students and offer the Cyber Collaboratory resources as part of those projects."],
+
+ "context": [""]
+		 },
+        {"tag": "small_business",
+         "patterns": ["can small businesses use your equipment?", "small business can work with you" , "startup business Can collaborate"],
+         "responses": ["The Cyber Collaboratory is part of the EAP launch network and also works with Cohab startups and other small businesses.  We are happy to partner with startups and small busniesses to help bring their visions to reality."],
+
+
+         "context": [""]
+		 },
+        {"tag": "cyber_chatbot",
+         "patterns": ["who made you", "who designed you", "who are you" ],
+         "responses": ["I am your assistant designed by Sandesh Prasai and Ramesh Poudel using Deep learning method"],
+         "context": [""]
+		 }
+   ]
+}
