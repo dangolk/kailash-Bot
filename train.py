@@ -1,15 +1,15 @@
 # libraries
 import random
-from keras.optimizers import SGD
-from keras.layers import Dense, Dropout
 import matplotlib.pyplot as plt
-from keras.models import Sequential
 import numpy as np
 import pickle
 import json
 import nltk
 from nltk.stem import WordNetLemmatizer
+from keras.models import Sequential
 from tensorflow.python.keras.layers import Flatten
+from tensorflow.keras.optimizers import SGD
+from keras.layers import Dense, Dropout
 
 lemmatizer = WordNetLemmatizer()
 nltk.download("punkt")

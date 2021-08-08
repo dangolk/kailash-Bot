@@ -3,11 +3,14 @@ import random
 import numpy as np
 import pickle
 import json
+
 from flask import Flask, render_template, request
+
 from flask_ngrok import run_with_ngrok
 import nltk
 from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
+from keras.optimizers import SGD
 lemmatizer = WordNetLemmatizer()
 
 
@@ -24,6 +27,9 @@ run_with_ngrok(app)
 def home():
     return render_template("index.html")
 
+@app.route("/test")
+def test():
+    return render_template("test.html")
 
 @app.route("/get", methods=["POST"])
 def chatbot_response():
